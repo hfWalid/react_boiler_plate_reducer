@@ -16,22 +16,24 @@ export const FEATURE_PLOP = {
                 actions: [{
                     type: 'add',
                     path: 'src/features/{{properCase name}}/index.js',
-                    templateFile: 'plop_Templates/index.hbs'
+                    templateFile: 'plop_Templates/index.js.hbs'
                 },{
                     type: 'add',
                     path: 'src/features/{{properCase name}}/components/index.js',
-                    templateFile: 'plop_Templates/index.hbs'
+                    templateFile: 'plop_Templates/feature.js.hbs'
                 },{
                     type: 'add',
                     path: 'src/features/{{properCase name}}/styles/index.js',
-                    templateFile: 'plop_Templates/style.hbs'
-                },
-                    {
-                        type: 'add',
-                        path: 'src/features/{{properCase name}}/__tests__/index.test.js',
-                        templateFile: 'plop_Templates/test.hbs'
-                    }
-                ]
+                    templateFile: 'plop_Templates/style.js.hbs'
+                },{
+                    type: 'add',
+                    path: 'src/features/{{properCase name}}/__tests__/index.test.js',
+                    templateFile: 'plop_Templates/feature-test.js.hbs'
+                },{
+                    type: 'add',
+                    path: 'src/features/{{properCase name}}/utils/constants.js',
+                    templateFile: 'plop_Templates/constants.js.hbs'
+                }]
             }
         }
     },
