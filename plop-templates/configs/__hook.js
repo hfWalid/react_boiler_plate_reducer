@@ -16,7 +16,7 @@ export const HOOK_PLOP = {
                 actions: [{
                     type: 'add',
                     path: 'src/hooks/{{properCase name}}.js',
-                    templateFile: 'plop_Templates/hook.hbs'
+                    templateFile: 'plop_Templates/hook.js.hbs'
                 }]
             }
         }

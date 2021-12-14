@@ -16,7 +16,7 @@ export const PAGE_PLOP = {
                 actions: [{
                     type: 'add',
                     path: 'src/pages/{{properCase name}}/index.js',
-                    templateFile: 'plop_Templates/Page.hbs'
+                    templateFile: 'plop_Templates/Page.js.hbs'
                 }]
             }
         }
