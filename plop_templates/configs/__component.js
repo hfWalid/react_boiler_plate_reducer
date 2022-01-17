@@ -16,15 +16,15 @@ export const COMPONENT_PLOP = {
                 actions: [{
                     type: 'add',
                     path: 'src/components/{{properCase name}}/index.js',
-                    templateFile: 'plop_Templates/component.js.hbs'
+                    templateFile: 'plop_templates/templates/component.js.hbs'
                 },{
                     type: 'add',
                     path: 'src/components/{{properCase name}}/style.js',
-                    templateFile: 'plop_Templates/style.js.hbs'
+                    templateFile: 'plop_templates/templates/style.js.hbs'
                 },{
                     type: 'add',
                     path: 'src/components/{{properCase name}}/__tests__/index.test.js',
-                    templateFile: 'plop_Templates/component-test.js.hbs'
+                    templateFile: 'plop_templates/templates/component-test.js.hbs'
                 }]
             }
         }
